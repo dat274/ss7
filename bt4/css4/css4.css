@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+.aothuat{
+    background-color: red;
+    border-radius: 50%;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin: 20%;
+    transition: width 1.5s,height 1.5s,transform 1.5s,background-color 1.5s
+}
+.aothuat h2{
+    padding-top: 90px;
+    transition: padding-top 1.5s, color 1.5s, font-size 1.5s
+}
+.aothuat:hover{
+    background-color: blue;
+    border-radius: 50%;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    transform: rotate(180deg)
+}
+.aothuat:hover h2{
+    padding-top: 180px;
+    color: white;
+    font-size: 40px;
+}

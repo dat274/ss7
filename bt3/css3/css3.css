@@ -1,18 +1,19 @@
 
 .hehe{
     width: 400px;
-    transition: width 2s;
+    background-color:green;
+    border:1px solid red;
+    transition: background-color 2s,width 2s;
+    height: 100px;
+    -webkit-transition: background-color 2s,width 2s;
+    -moz-transition: background-color 2s,width 2s;
+    -o-transition: background-color 2s,width 2s;
 }
 .hehe:hover{
     width: 600px;
+    background-color: gold;
 }
 .hehe h1{
-    background-color:green;
-    border:1px solid red;
-    transition: background-color 2s;
+    padding-top: 10px;
     padding-left: 20px;
-    padding: 20px;
-}
-.hehe:hover h1{
-    background-color: gold;
 }
